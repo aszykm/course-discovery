@@ -1,6 +1,8 @@
 # Packages required in a production environment
 -r base.txt
 
+psycopg2
+django-postgresql
 certifi==2016.9.26
 django-ses==0.8.1
 gevent==1.1.2
