@@ -4,6 +4,8 @@
 #
 #    pip-compile --output-file=requirements/production.txt requirements/production.in
 #
+psycopg2
+django-postgresql
 algoliasearch-django==1.7.1  # via -r requirements/base.in
 algoliasearch==1.20.0     # via algoliasearch-django
 authlib==0.14.3           # via simple-salesforce
